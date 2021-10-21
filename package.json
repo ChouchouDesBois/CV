@@ -1,0 +1,17 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:win": "node-sass --source-map true --watch --recursive --output-style compressed --output css/  --source-map-contents scss/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "sass": "^1.43.2"
+  }
+}

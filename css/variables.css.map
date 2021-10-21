@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "variables.css",
+	"sources": [
+		"../scss/variables.scss"
+	],
+	"sourcesContent": [
+		":root {\r\n  --font-family: 'Mulish', sans-serif ;\r\n  --light: #00c3ff;\r\n  --primary: #2071e7;\r\n  --dark: #2980b9;\r\n  --text: #333;\r\n  --background: #fafafa;\r\n  --hint: #999;\r\n  --border: #ddd; \r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,KAAK,AAAC,CACJ,aAAa,CAAA,sBAAC,CACd,OAAO,CAAA,QAAC,CACR,SAAS,CAAA,QAAC,CACV,MAAM,CAAA,QAAC,CACP,MAAM,CAAA,KAAC,CACP,YAAY,CAAA,QAAC,CACb,MAAM,CAAA,KAAC,CACP,QAAQ,CAAA,KAAC,CACV"
+}
