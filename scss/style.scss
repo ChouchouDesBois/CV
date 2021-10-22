@@ -81,7 +81,6 @@ header {
         border-right: 1px solid var(--border);
         @include md {
            padding-top: 1rem;
-            // max-height: 200px;
         }
         
 
@@ -89,8 +88,7 @@ header {
             border-radius: 50%;
             @include md {
                 max-width: 80%;
-                max-height:80%;
-                
+                max-height:80%;                
             }
         }
         
@@ -101,7 +99,6 @@ aside {
     background:var(--background);
     border-right: 1px solid var(--border);
     padding: 5rem;
-    // min-height: 1500px;
     .block {
         margin-bottom: 5rem;
         h3 {
@@ -176,14 +173,17 @@ aside {
 main {
     grid-area: main;
     padding: 5rem;
+    
     @include xs {
         padding: 5rem 1.5rem;
     }
+
     h2 {
         margin-bottom: 4rem;
-        &:nth-child(2) {
-            color: blue;
-        }
+        &:nth-of-type(2)
+            {
+                padding-top:3rem;
+            }
     }
     p {
         letter-spacing: 0.1rem;
